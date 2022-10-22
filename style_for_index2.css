@@ -1,0 +1,159 @@
+.all_container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    height:fit-content;
+    margin-top:10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(206, 200, 200);
+}
+.container2, .container4{
+    height:fit-content;
+    width:60%;
+    margin-left:10%;
+    background-color: white;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#quote_box{
+    margin:3%;
+    margin-right:5%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    height:fit-content;
+    align-self:center;
+}
+
+#quote{
+    color:rgb(4, 5, 61);
+    width:60%;
+    text-align:center;
+    margin-left:20%;
+    font-size:1.5rem;
+    font-weight:500;
+}
+
+#quoter{
+    color:rgb(233, 120, 14);
+    text-align:right;
+    margin-right:13px;
+    font-size:25px;
+}
+
+
+.container3,#recent_uploads{
+    margin-right: 3%;
+    width:25vw;
+    height:fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 5px rgb(148, 146, 146);
+    border:1px solid rgb(245, 237, 237);
+    display:flex;
+    flex-direction: column;
+}
+
+.courseimg{
+    height: 25vh;
+    border-radius: 15px;
+    max-height:160px;
+    margin:2vw 2vw 0vw 1vw;
+}
+
+.courses{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight:600;
+}
+
+#heading2, #heading3{
+    text-align: center;
+    color: rgb(7, 49, 77);
+    text-shadow: 1.3px 1.3px rgb(61, 61, 61);
+    margin: 4vh 0vh 0vh;
+    font-size: 2.1rem;
+    font-style: oblique;
+}
+
+.container4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color:black;
+    margin-left:20px;
+    text-align: center;
+    padding:0px;
+    flex-direction: column;
+    width:70%;
+}
+
+
+
+#through{
+    font-style: oblique;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+}
+
+#images1 img{
+    height:30vh;
+    max-height: 180px;
+    border-radius: 10px;
+    box-shadow: 5px 5px grey;
+    margin:0px 10px;
+}
+
+
+#images1{
+    display:flex;
+    height:fit-content;
+    flex-direction: row;
+    align-content: center;
+    justify-content:center;
+}
+
+
+.all_container2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    height:fit-content;
+    padding-bottom:20px;
+    border-bottom: 1px solid rgb(206, 200, 200);
+}
+
+#recent_uploads ul{
+    list-style-type: none;
+}
+
+#recent_uploads ul li{
+    height:200px;
+    width:95%;
+    border:1px solid rgb(218, 212, 212);
+    border-radius: 7px;
+    margin: 5vh 5px 5vh;
+    box-shadow: 5px 0px 5px grey;
+}
+
+footer{
+    border-top: 1px solid grey;
+    height:fit-content;
+    color:grey;
+    text-align: center;
+    padding:2vh;
+    background-color: rgb(209, 207, 204);
+}

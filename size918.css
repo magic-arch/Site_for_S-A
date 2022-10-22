@@ -1,0 +1,20 @@
+@media screen and (max-width:918px){
+    #headingimg1{
+        display: none;
+    }
+    #navigation li{
+        padding:0px 3px 0px;
+        margin:5px;
+    }
+    #navigation {
+        display:flex;
+        justify-content:flex-start;
+    }  
+    #search{
+        display:none;
+    }   
+    #index_file_link li:hover{
+        padding:0px 2.1px 0px;
+       
+    } 
+}

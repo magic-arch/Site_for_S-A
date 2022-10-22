@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav_for_mobile{
+    display:none;
+}
+body {
+    background-color: white;
+
+}
+
+
+/* science logo thing */
+#headingimg1 {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* S&A thing and searchbox container */
+#head-search{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* outermost container of the top bar */
+header {
+    background-color: rgb(238, 238, 238) ;
+    height: 14vh;
+    max-height: 100px;
+    min-height: 50px;
+    width:100vw;
+    padding: 2vh;
+    border-bottom: 1px solid rgb(197, 191, 191);
+    position:sticky;
+    top:0vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+}
+
+
+/* S&A and its image container */
+.heading1 {
+    margin-left: 2vw;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+/* contains S&A education text */
+#company_name {
+    text-shadow: 1.3px 1.3px rgb(90, 88, 88);
+    font-size:1.5rem;
+    font-weight: 500;
+}
+
+
+/* contains S&A */
+#head_separator {
+    color: rgb(233, 120, 14);
+    font-size: 2rem;
+    font-weight: 600;
+   
+}
+
+
+
+/* searchbar home courses about are these list items */
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    color: rgb(82, 80, 80);
+    font-weight:400;
+    margin: 0vh 20px 0vh;  
+    padding: 10px;
+}
+
+
+/* image in the search form */
+#search{
+    width: 7vh;
+    height:7vh;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+
+/* divison inside li#searchlist. contains form and image */
+#search_box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/* li containing the form and image */
+#searchlist {
+    border: 0px;
+}
+
+
+/* form containing the searchbar(only) */
+#searcher {
+    width: 20vw;
+    height:35px;
+    min-width:125px;
+    border: 2px solid rgb(112, 110, 110);
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+
+/* Home button */
+.navbar li{
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    border-radius: 16px;
+}
+
+.navbar li:hover{
+    font-weight: bold;
+    padding: 9px;  
+}
+
+.navbar li:active{
+    background-color: rgb(190, 196, 196);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
